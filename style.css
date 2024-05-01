@@ -1,0 +1,124 @@
+@font-face {
+    font-family: china;
+    src: url(./NeueMachina-Ultrabold.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #212121;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#page1 , #page2 , #page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw 0;
+}
+
+#move {
+    background-color: #d9ff06;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+.marque {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translate(-100%);
+}
+
+.marque h1 {
+    font-size: 4vw;
+    font-family: china;
+}
+.marque img {
+    height: 4vw;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5vw;   
+}
+ul , h4 {
+    color: #fff;
+    font-size: 4.5vw;
+    padding-right: 1.4vw;
+}
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    font-family: china;
+}
+
+footer {
+    background-color: #3a3939;
+    color: #fff;
+    text-align: center;
+    padding: 1.5vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 0%;
+}
+footer , h1 {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer , form {
+    font-size: 1.5vw;
+    font-family: china;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+footer , form , input {
+    width: 100%;
+    padding: 0 1.5vw;
+}
+
+footer , form , input  {
+    border: none;
+    outline: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+
+#page1 {
+    background-image: url(https://t3.ftcdn.net/jpg/06/59/38/36/360_F_659383627_UtpH18oGF0QlsEkhg0Sn5zVJIVlaoBsg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2 {
+    height: 11vw;
+    padding: 0;
+}
+
+#page3 {
+    background-image: url(https://img.freepik.com/premium-photo/abstract-night-ambient-starry-sky-magic-fantasy-digital-generated-background_840789-2115.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
